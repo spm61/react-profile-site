@@ -21,7 +21,7 @@ const Navigation = () => {
       {nav ? (
         <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
           <Link
-            to='/react-portfolio/'
+            to='/'
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
@@ -29,7 +29,7 @@ const Navigation = () => {
             <span className='pl-4'>Home</span>
           </Link>
           <Link
-            to='/react-portfolio/about'
+            to='/about'
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
@@ -37,7 +37,7 @@ const Navigation = () => {
             <span className='pl-4'>About</span>
           </Link>
           <Link
-            to='/react-portfolio/portfolio'
+            to='/portfolio'
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
@@ -45,7 +45,7 @@ const Navigation = () => {
             <GrProjects size={20} /> <span className='pl-4'>Portfolio</span>
           </Link>
           <Link
-            to='/react-portfolio/contact'
+            to='/contact'
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
@@ -65,19 +65,19 @@ const Navigation = () => {
             <AiOutlineHome size={20} />
           </Link>
           <Link
-            to='/react-portfolio/about'
+            to='/about'
             className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <BsPerson size={20} />
           </Link>
           <Link
-            to='/react-portfolio/portfolio'
+            to='/portfolio'
             className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <AiOutlineProject size={20} />
           </Link>
           <Link
-            to='/react-portfolio/contact'
+            to='contact'
             className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <AiOutlineMail size={20} />

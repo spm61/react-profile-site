@@ -12,14 +12,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path='/react-portfolio' element={<Home />} />
-      </Routes>
-      <Routes>
         <Route path='/react-portfolio/about' element={<About />} />
-      </Routes>
-      <Routes>
         <Route path='/react-portfolio/portfolio' element={<Portfolio />} />
-      </Routes>
-      <Routes>
         <Route path='/react-portfolio/contact' element={<Contact />} />
       </Routes>
     </Router>
