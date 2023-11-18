@@ -1,13 +1,7 @@
-import gradient from '../assets/images/gradient.jpg';
-
 const Contact = () => {
   return (
     <div>
-      <img
-        className='w-full h-screen object-cover object-center'
-        src={gradient}
-        alt='A colorful gradient background photo.'
-      />
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div
           id='contact'

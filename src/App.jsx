@@ -11,10 +11,10 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route path='/react-portfolio' element={<Home />} />
-        <Route path='/react-portfolio/about' element={<About />} />
-        <Route path='/react-portfolio/portfolio' element={<Portfolio />} />
-        <Route path='/react-portfolio/contact' element={<Contact />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </Router>
   );

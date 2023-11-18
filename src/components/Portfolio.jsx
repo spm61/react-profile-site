@@ -7,16 +7,11 @@ import workDaySchedulerImg from '../assets/images/workday-scheduler.png';
 import weatherDashboardImg from '../assets/images/weather-dashboard.png';
 import logoGeneratorImg from '../assets/images/logo-generator.png';
 import noteTakerImg from '../assets/images/note-taker.png';
-import gradient from '../assets/images/gradient.jpg';
 
 const Portfolio = () => {
   return (
     <div id='about' className=''>
-      <img
-        className='md:w-full md:h-screen md:object-cover md:object-center md:visible invisible'
-        src={gradient}
-        alt='A pretty gradient image'
-      />
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div
           id='portfolio'

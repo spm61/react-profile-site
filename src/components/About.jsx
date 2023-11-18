@@ -1,16 +1,11 @@
 
 import lightbulb from '../assets/images/lightbulb.jpg';
-import gradient from '../assets/images/gradient.jpg';
 import Resume from './Resume';
 
 const About = () => {
   return (
     <div id='about'>
-      <img
-        className='w-full h-screen object-cover object-center'
-        src={gradient} 
-        alt='Background Gradient'
-      />
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div className='max-w-[1040px] m-auto md:pl-20 p-4 sm:py-10 py-4'>
           <h1 className='text-2xl sm:text-6xl font-bold text-center text-gray-800'>
