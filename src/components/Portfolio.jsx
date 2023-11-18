@@ -7,6 +7,7 @@ import workDaySchedulerImg from '../assets/images/workday-scheduler.png';
 import weatherDashboardImg from '../assets/images/weather-dashboard.png';
 import logoGeneratorImg from '../assets/images/logo-generator.png';
 import noteTakerImg from '../assets/images/note-taker.png';
+import hangmanImg from '../assets/images/hangman-game.png';
 
 const Portfolio = () => {
   return (
@@ -67,6 +68,13 @@ const Portfolio = () => {
                 img={noteTakerImg}
                 title='Note Taker'
                 url='https://github.com/spm61/note-taker'
+              />
+            </div>
+            <div>
+              <ProjectItem
+                img={hangmanImg}
+                title='Hangman Game (group project)'
+                url='https://github.com/spm61/hangman-js-game'
               />
             </div>
           </div>
