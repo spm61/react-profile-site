@@ -1,8 +1,7 @@
 const Contact = () => {
   return (
     <div>
-      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
-      <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
+      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500'>
         <div
           id='contact'
           className='max-w-[1040px] m-auto md:pl-20 sm:p-4 p-6 py-4 sm:py-10'

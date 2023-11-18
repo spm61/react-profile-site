@@ -4,8 +4,7 @@ import Footer from './Footer';
 const Home = () => {
   return (
     <div id='home'>
-      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
-      <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
+      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center'>
           <h1 className='text-3xl sm:text-6xl font-bold text-gray-800'>
             Sean Moroney
