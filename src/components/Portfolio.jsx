@@ -1,21 +1,21 @@
 
 import ProjectItem from './ProjectItem';
 import codeRefactorImg from '../assets/images/code-refactor.png';
-import passwordGeneratorImg from '../assets/images/password-generator.png';
-import codeQuizImg from '../assets/images/code-quiz.png';
-import workDaySchedulerImg from '../assets/images/work-day-scheduler.png';
+import passwordGeneratorImg from '../assets/images/random-password-generator.png';
+import jsQuizImg from '../assets/images/js-quiz-app.png';
+import workDaySchedulerImg from '../assets/images/workday-scheduler.png';
 import weatherDashboardImg from '../assets/images/weather-dashboard.png';
-import teamProfileGeneratorImg from '../assets/images/team-profile-generator.png';
+import logoGeneratorImg from '../assets/images/logo-generator.png';
 import noteTakerImg from '../assets/images/note-taker.png';
-import folder from '../assets/images/folder.jpg';
+import gradient from '../assets/images/gradient.jpg';
 
 const Portfolio = () => {
   return (
     <div id='about' className=''>
       <img
         className='md:w-full md:h-screen md:object-cover md:object-center md:visible invisible'
-        src={folder}
-        alt='A folder image'
+        src={gradient}
+        alt='A pretty gradient image'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div
@@ -30,49 +30,49 @@ const Portfolio = () => {
               <ProjectItem
                 img={codeRefactorImg}
                 title='Code Refactor'
-                url=''
+                url='https://github.com/spm61/horiseon-refactor-challenge'
               />
             </div>
             <div>
               <ProjectItem
                 img={passwordGeneratorImg}
                 title='Password Generator'
-                url=''
+                url='https://github.com/spm61/random-password-generator'
               />
             </div>
             <div>
               <ProjectItem
-                img={codeQuizImg}
+                img={jsQuizImg}
                 title='Code Quiz'
-                url=''
+                url='https://github.com/spm61/js-quiz-app'
               />
             </div>
             <div>
               <ProjectItem
                 img={workDaySchedulerImg}
                 title='Work Day Scheduler'
-                url=''
+                url='https://github.com/spm61/work-day-scheduler'
               />
             </div>
             <div>
               <ProjectItem
                 img={weatherDashboardImg}
                 title='Weather Dashboard'
-                url=''
+                url='https://github.com/spm61/weather-dashboard'
               />
             </div>
             <div>
               <ProjectItem
-                img={teamProfileGeneratorImg}
+                img={logoGeneratorImg}
                 title='Logo Generator'
-                url=''
+                url='https://github.com/spm61/svg-logo-maker'
               />
             </div>
             <div>
               <ProjectItem
                 img={noteTakerImg}
                 title='Note Taker'
-                url=''
+                url='https://github.com/spm61/note-taker'
               />
             </div>
           </div>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const ProjectItem = ({ img, title, description, url }) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-[#F2B5E3] to-[#94EAE7]'>
