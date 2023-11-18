@@ -22,7 +22,7 @@ const Navigation = () => {
         <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
           <Link
             to='/'
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
             <AiOutlineHome size={20} />

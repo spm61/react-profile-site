@@ -5,7 +5,7 @@ import Resume from './Resume';
 const About = () => {
   return (
     <div id='about'>
-      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500'>
+      <div className='w-full h-full absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500'>
         <div className='max-w-[1040px] m-auto md:pl-20 p-4 sm:py-10 py-4'>
           <h1 className='text-2xl sm:text-6xl font-bold text-center text-gray-800'>
             About

@@ -12,7 +12,7 @@ import hangmanImg from '../assets/images/hangman-game.png';
 const Portfolio = () => {
   return (
     <div id='about' className=''>
-      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500'>
+      <div className='w-full h-full absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500'>
         <div
           id='portfolio'
           className='max-w-[800px] m-auto md:pl-20 sm:p-4 p-14 sm:py-10 py-4'
