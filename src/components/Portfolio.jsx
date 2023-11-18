@@ -1,14 +1,12 @@
 
-import PortfolioItem from './PortfolioItem';
+import ProjectItem from './ProjectItem';
 import codeRefactorImg from '../assets/images/code-refactor.png';
 import passwordGeneratorImg from '../assets/images/password-generator.png';
 import codeQuizImg from '../assets/images/code-quiz.png';
 import workDaySchedulerImg from '../assets/images/work-day-scheduler.png';
 import weatherDashboardImg from '../assets/images/weather-dashboard.png';
-import codingTheCosmosImg from '../assets/images/coding-the-cosmos.png';
 import teamProfileGeneratorImg from '../assets/images/team-profile-generator.png';
 import noteTakerImg from '../assets/images/note-taker.png';
-import weatherOrNotImg from '../assets/images/weather-or-not.png';
 import folder from '../assets/images/folder.jpg';
 
 const Portfolio = () => {
@@ -29,65 +27,51 @@ const Portfolio = () => {
           </h1>
           <div className='grid sm:grid-cols-3 gap-12'>
             <div>
-              <PortfolioItem
+              <ProjectItem
                 img={codeRefactorImg}
                 title='Code Refactor'
                 url=''
               />
             </div>
             <div>
-              <PortfolioItem
+              <ProjectItem
                 img={passwordGeneratorImg}
                 title='Password Generator'
                 url=''
               />
             </div>
             <div>
-              <PortfolioItem
+              <ProjectItem
                 img={codeQuizImg}
                 title='Code Quiz'
                 url=''
               />
             </div>
             <div>
-              <PortfolioItem
+              <ProjectItem
                 img={workDaySchedulerImg}
                 title='Work Day Scheduler'
                 url=''
               />
             </div>
             <div>
-              <PortfolioItem
+              <ProjectItem
                 img={weatherDashboardImg}
                 title='Weather Dashboard'
                 url=''
               />
             </div>
             <div>
-              <PortfolioItem
-                img={codingTheCosmosImg}
-                title='Coding The Cosmos'
-                url=''
-              />
-            </div>
-            <div>
-              <PortfolioItem
+              <ProjectItem
                 img={teamProfileGeneratorImg}
-                title='Team Profile Generator'
+                title='Logo Generator'
                 url=''
               />
             </div>
             <div>
-              <PortfolioItem
+              <ProjectItem
                 img={noteTakerImg}
                 title='Note Taker'
-                url=''
-              />
-            </div>
-            <div className='mb-6'>
-              <PortfolioItem
-                img={weatherOrNotImg}
-                title='Weather Or Not'
                 url=''
               />
             </div>

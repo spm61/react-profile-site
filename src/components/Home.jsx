@@ -1,4 +1,4 @@
-import computer from '../assets/images/computer.png';
+import gradient from '../assets/images/gradient.jpg';
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Footer from './Footer';
 
@@ -7,7 +7,7 @@ const Home = () => {
     <div id='home'>
       <img
         className='w-full h-screen object-cover object-center'
-        src={computer}
+        src={gradient}
         alt='A colorful gradient background photo.'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
