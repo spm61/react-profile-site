@@ -7,7 +7,7 @@ const Resume = () => {
       <div className='absolute sm:bottom-6 sm:right-6 bottom-4 right-4'>
         <a
           className='float-left text-md sm:text-xl font-medium text-orange-200 hover:line-through hover:italic hover:decoration-gray-800'
-          href='../assets/pdf/sean-resume-2023.pdf'
+          href='/sean-resume-2023.pdf'
           download='Sean-Resume-2023'
         >
           Download My <span className='text-gray-800'>Resume</span>
